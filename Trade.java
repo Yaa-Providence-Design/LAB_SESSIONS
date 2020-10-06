@@ -28,7 +28,7 @@ public class Trade{
 	}
 
 
-	public static void mian(String args[]){
+	public static void main(String args[]){
 		Trade newTrade = new Trade("T0001", "IBM", 20);
 		newTrade.setPrice(58.2f);
 		System.out.println(newTrade);
